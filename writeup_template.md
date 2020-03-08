@@ -11,6 +11,9 @@ In order to find the whole extent of every lane, I've extended every lane drawn 
 I've also added few hacks which helped to get reasonable result on challange.mp4 - I've filtered our lanes which were too close to be horizontal or vertical.
 
 
+UPD: Recert commit added averaging out all lines we drew before for each lane in order to be compliant with a requirement.
+
+
 ### 2. Identify potential shortcomings with your current pipeline
 Algorithm can only detect straight lines, which is not always how it is in real life.
 It also rely on a bunch of tuned parameters which works well for current environment, but probably won't work for other environments (e.g. city street, night driving, etc).
